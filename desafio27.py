@@ -1,0 +1,7 @@
+print('{} DESAFIO 27 {}'.format('=' * 10, '=' * 10))
+n = str(input('Digite seu nome completo: ')).strip()
+id = n.count(' ')
+n = n.split()
+print('Muito prazer em te conhecer!')
+print('primeiro nome: {}\núltimo nome: {}'.format(n[0], n[id]))
+#print('primeiro nome: {}\núltimo nome: {}'.format(n[0], n[len(n)-1]))

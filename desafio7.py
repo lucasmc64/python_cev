@@ -1,0 +1,5 @@
+print('{} DESAFIO 7 {}'.format('='*10, '='*10))
+aluno = input('Qual é o nome do aluno? ')
+n1 = int(input('Digite a primeira nota: '))
+n2 = int(input('Digite a degunda nota: '))
+print('A média atritmética entre as notas \033[36m{}\033[m e \033[35m{}\033[m de \033[31m{}\033[m é igual a \033[34m{}\033[m.'.format(n1, n2, aluno, ((n1 + n2)/2)))
